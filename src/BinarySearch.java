@@ -27,7 +27,7 @@ public class BinarySearch {
                 return recursiveBinarySearch(intArray, lowPosition, highPosition-1, target);
             } else {
                 // otherwise, we FOUND the target, so return that index
-                return midPosition;
+               return midPosition;
             }
         }
     }
